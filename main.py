@@ -42,6 +42,7 @@ def read_file(path, file):
     r_file.close()
 
 
+
 for path, currentDirectory, files in os.walk(f"./{source_folder}"):
     for file in files:
         print(file)
